@@ -1,0 +1,183 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-size: 14px;
+}
+ul,
+li {
+  list-style: none;
+}
+h3 {
+  text-transform: uppercase;
+  border-bottom: 1px solid #bbb; 
+  padding: 5px 0;
+  width: 50%;
+}
+.wrap {
+  max-width: 1024px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px;
+  padding: 75px 0; 
+}
+header,
+main,
+footer {
+  padding: 0 45px;
+}
+header {
+  padding-right: 0;
+  margin-bottom: 40px;
+}
+header>div {
+  float:left;
+}
+.logo {
+  display: inline-block;
+  width: 0px;
+  height: 0px;
+  border-radius: 75px;
+  border: 75px solid;
+  border-right-color: #fff; 
+  border-bottom-color: #fff; 
+  vertical-align: middle;
+  transform: rotate(-65deg);
+  position: relative;
+  box-shadow: 0 0 5px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.logo:before {
+  content: 'X';
+  display: inline-block;
+  width: 75px;
+  height: 75px;
+  background: #fff;
+  color: #000;
+  line-height: 75px;
+  text-align: center;
+  transform: rotate(65deg);
+  border-radius: 37.5px;
+  position: absolute;
+  top: -11px;
+  right: -11px;
+}
+.logo:after {
+  content: 'Z';
+  display: inline-block;
+  width: 75px;
+  height: 75px;
+  background: #000;
+  color: #fff;
+  line-height: 75px;
+  text-align: center;
+  transform: rotate(65deg);
+  border-radius: 37.5px;
+  position: absolute;
+  top: -64px;
+  right: -64px;
+}
+.name .ct {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 40px;
+}
+.name h2 {
+  font-size: 2.5em;
+  font-family: ;
+}
+.contacts {
+  float: right;
+  width: 355px;
+}
+.contacts h3 {
+  width: 100%;
+  border-bottom: 5px solid #000; 
+}
+li{
+  margin-top: 15px; 
+}
+.contacts li b {
+  display: inline-block;
+  width: 20px;
+}
+main ul {
+  margin-left: 10px;
+  border-left: 1px solid #000;
+  position: relative;
+  top: 5px;
+}
+main ul li {
+  padding-left: 80px;
+  margin: 30px auto;
+  position: relative;
+  top: -5px;
+}
+main ul li:before {
+  content: '';
+  display: block;
+  width: 11px;
+  height: 11px;
+  background: #000;
+  border-radius: 5px;
+  position: absolute;
+  top: 5px;
+  left: -6px;
+}
+main ul li span {
+  color: #bbb;
+}
+ul li p {
+  padding-top: 10px;
+  line-height: 1.8;
+}
+
+footer>div {
+  box-sizing: border-box;
+  width: 41%;
+  float: left;
+}
+footer ul li {
+  position: relative;
+
+}
+footer ul li:before {
+  content: '\002b';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  border: 1px solid;
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+footer h3 {
+  width: 100%;
+}
+footer h4 {
+  line-height: 22px;
+}
+footer .extra li {
+  padding-left: 80px; 
+  margin-top: 25px;
+}
+footer .skills {
+  float: right;
+}
+footer .skills li {
+  box-sizing: border-box;
+  width: 50%;
+  padding-left: 55px;
+  margin: 25px 0;
+  float: left;
+}
+.clear:after {
+  content: '';
+  display: block;
+  height: 0;
+  clear: both;
+}
