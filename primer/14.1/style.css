@@ -4,4 +4,38 @@
 }
 body {
   background: #fff2e3;
+  text-align: center;
+  color: #87968e;
+  font-size: 14px;
+  font-family: "Lantinghei SC", "Open Sans", Arial, "Hiragino Sans GB", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #72b890;
+}
+a:hover {
+  opacity: 0.8;
+}
+a:active {
+  opacity: 0.6;
+}
+header h1 {
+  font-size: 3em;
+  padding: 30px;
+}
+header p {
+  opacity: 0.6;
+}
+nav {
+  padding: 40px 0;
+  font-size: 0;
+}
+nav a {
+  background: #72b890;
+  padding: 4px 14px;
+  display: inline-block;
+  color: #fff;
+  border-radius: 2px;
+  font-size: 14px;
+  margin: 0 5px;
 }
